@@ -1,9 +1,9 @@
-#Docker Image
+# Docker Image
 ***
-##Khái niệm
+## Khái niệm
 - Image trong docker là những phần mềm được đóng góp và quản lý bởi docker
 - Khi Image được docker khởi chạy thì gọi là Container
-##Các lệnh cơ bản trong Docker
+## Các lệnh cơ bản trong Docker
 Để hiển thị thông tin các Image thực hiện lệnh 
 ```
 docker images
