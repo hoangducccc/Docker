@@ -61,3 +61,15 @@ Thực hiện lệnh trong container khi ở bên ngoài
 ```
 docker exec <tên hoặc ID container> <lệnh>
 ```
+Biến một container thành một image
+```
+docker commit <id container> <tên image:tag>
+```
+Lưu image thành một file
+```
+docker save --output <file.tar> <id image>
+```
+Tạo image từ một file
+```
+docker load -i <file.tar>
+```
