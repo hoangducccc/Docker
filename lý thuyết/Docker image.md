@@ -57,3 +57,7 @@ Xóa container
 ```
 docker rm -f <ID>
 ```
+Thực hiện lệnh trong container khi ở bên ngoài
+```
+docker exec <tên hoặc ID container> <lệnh>
+```
